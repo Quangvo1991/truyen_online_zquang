@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-image: url('/asssets/img/header/header2.jpg');
+    width: 100%;
+    height: 52px;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+.container>.container-text {
+    text-align: center;
+    line-height: 52px;
+    font-size: 27px;
+    
+    font-weight: 600;
+    background: linear-gradient(to bottom , #fffbfb , #370e7e);
+    -webkit-background-clip : text;
+    color: transparent;
+}
+
+#header {
+    
+    top: 52;
+    left: 0;
+    right: 0;
+    height: 41px;
+    font-size: 20px;
+    background-color: #e4e4e4;
+    color: #000;
+}
+
+#nav .sub-nav {
+    list-style-type: none;
+}
+
+#nav .nav-down {
+    font-size: 15px;
+}
+
+#header .search-btn {
+    float: right;
+    line-height: 41px;
+    padding: 0px 21px;
+    
+
+}
+
+#header .search-icon {
+    color: #000;
+    font-size: 20px;
+   
+
+}
+
+#header .search-btn:hover {
+    color: #fff;
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#nav li {
+    position: relative;
+    
+}
+
+#nav>li {
+    display: inline-block;
+    
+}
+
+#nav li a {
+    color: #000;
+    text-decoration: none;
+    line-height: 41px;
+    padding: 0 24px;
+    font-weight: 550;
+    display: inline-block;
+}
+
+#nav li:hover .sub-nav {
+    display: block;
+}
+
+#nav>li:hover>a {
+    background-color: #747474;
+    color:  #007BFF;
+    
+   
+}
+
+#nav .sub-nav {
+    display: none; 
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+#nav .sub-nav a {
+    padding: 0 24px;
+    color: #007BFF;
+    line-height: 38px;
+    
+}
+
+#nav .sub-nav li:hover {
+    background-color: #747474;
+    color: #000;
+   
+    
+}
+
+.place {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.place-list {
+    margin-top: 50px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.place-item {
+    float: left;
+    width: calc(100%/3);
+    padding: 0 8px;
+    
+}
+
+.place-img {
+    width: 100%;
+    display: block;
+}
+
+.place-img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.place-body {
+    background-color: #747474;
+    color: #000;
+    padding: 16px;
+    font-size: 15px;
+}
+
+.place-heading {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.place-heading:hover a {
+    color: #288ad6;
+    cursor: pointer;
+}
+
+.place-chapter {
+ line-height: 1.6;
+ font-style: italic;
+}
+
+.place-chapter:hover a {
+    color: #288ad6;
+    cursor: pointer;
+}
+
+.place-body  a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+#comic {
+    margin-top: 50px;
+   
+}
+
+.comic-heading {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+#comic .comic-content {
+    line-height: 1.6;
+    margin-top: 15px;
+}
