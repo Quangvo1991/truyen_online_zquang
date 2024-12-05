@@ -12,16 +12,18 @@ html {
     clear: both;
 }
 
-#container {
+.container {
     background-image: url('/asssets/img/place/contain2.jpg');
     width: 100%;
     height: 52px;
+    background-size: 100%;
+    
     
 }
 
 
 
-#container>.container-text {
+.container > .container-text {
 
     text-align: center;
     line-height: 52px;
